@@ -1,0 +1,339 @@
+/* cameron-morin.com */
+
+/* Fonts: Lato and Lora, served from this site. */
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/lato-400-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/lato-400-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/lato-700-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/lato-700-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/lora-italic-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/lora-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/lora-variable-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/lora-variable-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/lora-variable-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/lora-variable-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* The menu button's three bars. */
+@font-face {
+  font-family: "Site Icons";
+  src: url("fonts/icons.woff2") format("woff2");
+}
+
+:root {
+  --paper: #f5f3e4;
+  --ink: #404040;
+  --ink-strong: #161616;
+  --ink-soft: #5a5950;
+  --accent: #2d6a79;
+  --rule: #e3dfc6;
+  --rule-menu: #ebebeb;
+}
+
+/* Base */
+*, ::before, ::after { box-sizing: border-box; }
+html { font-family: sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Lato, sans-serif;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
+}
+article, details, figcaption, figure, footer, header, main, nav, summary { display: block; }
+h1 { font-family: Lora, serif; font-weight: normal; clear: both; margin: 0 0 15px; }
+p { margin: 0 0 22px; }
+strong, b { font-weight: bold; }
+em, i, cite { font-style: italic; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -.5em; }
+sub { bottom: -.25em; }
+ul { list-style: disc; margin: 0 0 1em 1em; padding: 0 0 0 .2em; }
+li > ul { margin-bottom: 0; margin-left: 1em; }
+img { border: 0; height: auto; max-width: 100%; }
+figure { margin: 1em 0; }
+iframe { max-width: 100%; }
+
+a { color: var(--ink-strong); text-decoration: none; background-color: transparent; transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+a:hover, a:focus, a:active { color: var(--accent); }
+
+/* Keyboard focus is marked; a mouse click is not. */
+:focus { outline: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+summary:focus-visible { outline-offset: 4px; }
+
+button { font: inherit; margin: 0; overflow: visible; text-transform: none; -webkit-appearance: button; appearance: button; cursor: pointer; }
+
+/* Page frame */
+.container { margin: 0 auto; padding: 0 15px; }
+.row { margin: 0 -15px; }
+.container::before, .container::after, .row::before, .row::after { content: " "; display: table; }
+.container::after, .row::after { clear: both; }
+.col { position: relative; min-height: 1px; padding: 0 15px; }
+.site-header::before, .site-header::after,
+.site-content::before, .site-content::after,
+.site-footer::before, .site-footer::after,
+.entry-content::before, .entry-content::after { content: ""; display: table; table-layout: fixed; }
+.site-header::after, .site-content::after, .site-footer::after, .entry-content::after { clear: both; }
+
+/* Masthead: the photograph across the page, with where and when it was taken in
+   its corner, then the name. */
+.site-branding { padding: 30px 0 24px; text-align: center; }
+.site-photo { position: relative; overflow: hidden; border-radius: 3px; }
+.site-logo { display: block; }
+/* Where the photograph is cut to a band, the cut falls on the dark rocks at the
+   foot of the picture: the sky, the horizon and the ships' lights stay whole. */
+.site-logo img { display: block; width: 100%; max-width: none; height: 310px; object-fit: cover; object-position: 50% 20%; }
+.site-photo-caption { position: absolute; right: 10px; bottom: 6px; font-size: 11px; line-height: 1.4; letter-spacing: .06em; color: rgba(255, 255, 255, .8); text-shadow: 0 1px 2px rgba(0, 0, 0, .6); pointer-events: none; }
+.site-title { font-size: 2.25rem; font-family: Lato, sans-serif; line-height: 1; margin: 26px 0 6px; text-transform: uppercase; letter-spacing: .05em; }
+.site-description { font-size: .78rem; letter-spacing: .24em; margin: 10px 0 0; text-transform: uppercase; color: var(--ink-soft); }
+
+/* Menu */
+.site-nav {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: .06em;
+}
+.site-nav ul { display: none; list-style: none; margin: 0; padding-left: 0; }
+.site-nav.open ul { display: block; }
+.site-nav li { display: inline-block; position: relative; }
+.site-nav a { display: block; padding: 15px 14px; color: var(--ink-strong); font-size: 14px; position: relative; }
+.site-nav a:hover, .site-nav a:focus, .site-nav .current > a { color: var(--accent); }
+/* The current page carries a bar on the rule beneath the menu, not colour alone. */
+.site-nav .current > a::after { content: ""; position: absolute; left: 14px; right: 14px; bottom: -1px; height: 2px; background: var(--accent); }
+.site-nav .flag a { background: no-repeat left center / 35px; padding-left: 44px; }
+.site-nav .flag-fr a { background-image: url("/wp-content/uploads/2019/10/iconfinder_france_92087.png"); }
+.site-nav .flag-en a { background-image: url("/wp-content/uploads/2019/10/iconfinder_united-kingdom_flat_92402.png"); }
+.menu-toggle { display: block; width: 100%; height: 44px; margin: 10px 0; padding: 0 15px; text-transform: uppercase; font-weight: bold; letter-spacing: .1em; font-size: .8rem; line-height: 1; position: relative; background: transparent; color: var(--ink-strong); border: 1px solid var(--rule); border-radius: 3px; }
+.menu-toggle:hover, .menu-toggle[aria-expanded="true"] { background: var(--ink-strong); color: var(--paper); }
+.menu-toggle::before {
+  content: "\e000";
+  display: inline-block;
+  font-family: "Site Icons";
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/* Content */
+.site-content { margin-top: 40px; }
+.entry { position: relative; }
+.entry-title { font-size: 1.5rem; font-weight: 700; line-height: 1.4; margin: 8px 0; text-align: left; text-transform: uppercase; letter-spacing: .03em; }
+.entry-content { margin-top: 30px; max-width: 740px; }
+.entry-content a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: rgba(45, 106, 121, .4); text-underline-offset: .16em; }
+.entry-content a:hover { color: var(--ink-strong); text-decoration-color: currentColor; }
+
+/* Text sizes in the content: running text and entries at 16, the welcome line at
+   20, the key at the top of a list at 15, a section heading in the serif at 19. */
+.entry-content p, .entry-content li { font-size: 16px; }
+.entry-content .lead { font-size: 20px; }
+.entry-content h2, summary { font-family: Lora, serif; font-size: 1.2rem; font-weight: bold; line-height: 1.4; color: var(--ink-strong); }
+
+/* Spacing in the content: 22px after every block, 10px between two entries of a
+   list, and the entries of a section close under its heading. */
+.entry-content > * { margin-top: 0; margin-bottom: 22px; }
+.entry-content ul { margin-left: 15px; padding-left: 3px; }
+.entry-content li { margin-bottom: 10px; line-height: 1.55; }
+.entry-content h2 { margin-bottom: .55em; }
+/* A group inside a section (the levels of supervised theses): the small capitals of the menu. */
+.entry-content h3 { font-size: 13px; font-weight: bold; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin: 1.2em 0 .6em; }
+.entry-content h2 + h3 { margin-top: 0; }
+.entry-content details > ul { margin-top: .55em; margin-bottom: 0; }
+
+/* Lists of entries (publications, media, teaching): no bullets; the emoji that
+   opens each entry hangs in the margin, so a wrapped entry keeps one left edge. */
+.entry-content.plain-lists ul { list-style: none; padding-left: 0; }
+.plain-lists ul li { padding-left: 1.4em; text-indent: -1.4em; }
+
+/* The key at the top of a list page: quieter than the entries it explains. */
+.entry-content .legend { font-size: 15px; line-height: 1.7; color: var(--ink-soft); border-left: 3px solid var(--accent); padding: .15em 0 .15em 1em; margin-bottom: 28px; }
+/* How many entries of each kind: the number alone, bold and in full ink against the quieter label.
+   A filled tile was tried and read as one more emoji beside the real ones. The no-break space before
+   it in the page keeps it on the line of the last word. */
+.legend .count { margin-left: .2em; color: var(--ink-strong); font-weight: bold; font-size: 17px; line-height: 1; white-space: nowrap; }
+
+/* Year sections: the heading is the control, and a chevron says whether it is open. */
+summary { cursor: pointer; list-style: none; position: relative; padding-left: 1.1em; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: ""; position: absolute; left: .12em; top: .5em; width: .38em; height: .38em; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent); transform: rotate(-45deg); transition: transform .18s ease, top .18s ease; }
+details[open] > summary::before { transform: rotate(45deg); top: .38em; }
+summary:hover { color: var(--accent); }
+
+/* Publications. Each entry is a small record: its picture in a column on the left,
+   and on the right its three parts on lines of their own, the title in the serif
+   carrying the weight, the authors above and the venue below quieter. The column's
+   width, the gap and the tile's height are the page's measures; every picture
+   keeps to them, so the pictures make one rail down the page. */
+.pubs { --pic-w: 90px; --pic-h: 128px; --pic-gap: 20px; --logo-w: 75px; --logo-h: 70px; }
+.pubs li.pub { display: grid; grid-template-columns: var(--pic-w) minmax(0, 1fr); column-gap: var(--pic-gap); align-items: start; padding-left: 0; text-indent: 0; margin-bottom: 14px; }
+.pubs li.pub:last-child { margin-bottom: 0; }
+/* A cover is shown whole at the column's width; a logo sits centred on a white tile of
+   a cover's size, so an entry without a cover keeps the rail; an entry with no picture
+   keeps the space. */
+.pub-pic { display: block; width: var(--pic-w); margin-top: 4px; border-radius: 2px; }
+.pub-pic img { display: block; }
+.pub-pic-cover img { width: 100%; height: auto; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .14); }
+.pub-pic-logo { height: var(--pic-h); display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: 0 0 0 1px var(--rule), 0 1px 3px rgba(0, 0, 0, .08); }
+.pub-pic-logo img { width: var(--logo-w); height: var(--logo-h); object-fit: contain; }
+.pub-pic-none { height: var(--pic-h); }
+.pub-text { display: block; min-width: 0; }
+.pub-who, .pub-what, .pub-where { display: block; }
+.pub-who, .pub-where { font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+.pub-who strong { color: var(--ink); }
+.pub-kind { font-size: 15px; margin-right: .15em; }
+.pub-what { font-family: Lora, serif; font-size: 17px; line-height: 1.4; color: var(--ink-strong); margin: 3px 0 5px; }
+.pubs .pub-what a { color: var(--ink-strong); text-decoration-color: rgba(45, 106, 121, .45); }
+.pubs .pub-what a:hover, .pubs .pub-what a:focus { color: var(--accent); text-decoration-color: currentColor; }
+/* A year section stands under a hairline, its heading a little larger than on the
+   other list pages, with room beneath it for the first record. */
+.pubs details { border-top: 1px solid var(--rule); padding-top: 12px; margin-bottom: 24px; scroll-margin-top: 12px; }
+.pubs summary { font-size: 1.3rem; }
+.pubs details > ul { margin-top: 14px; margin-left: 0; padding-left: 0; }
+.pubs .legend { margin-bottom: 14px; }
+/* One line of links to the years, under the key: the way to a year without scrolling to it. */
+.pubs .pub-years { font-size: 14px; line-height: 2; margin: 0 0 28px; color: var(--ink-soft); }
+.pubs .pub-years a { margin-right: 1.1em; white-space: nowrap; }
+/* On a wide screen the records stand two abreast, each year filling its rows from left to
+   right, so the page is about as long as the plain list was; below that, one column. */
+@media (min-width: 1100px) {
+  .entry-content.pubs { max-width: none; }
+  .pubs details > ul { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 44px; row-gap: 18px; }
+  .pubs li.pub { margin-bottom: 0; }
+}
+@media (max-width: 767px) {
+  .pubs { --pic-w: 78px; --pic-h: 110px; --pic-gap: 14px; --logo-w: 64px; --logo-h: 60px; }
+  .pubs li.pub { margin-bottom: 14px; }
+  .pub-what { font-size: 16px; }
+  .pubs details { margin-bottom: 30px; }
+}
+
+/* A swapped-in emoji graphic sits in the line like the character it replaces. */
+img.emoji { display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -.1em !important; background: none !important; padding: 0 !important; }
+
+.image img { box-sizing: border-box; height: auto; max-width: 100%; vertical-align: bottom; }
+
+.video iframe { display: block; aspect-ratio: 700 / 394; height: auto; border: 0; }
+
+/* The CV, shown as its pages one under the other. */
+.cv-page { display: block; width: 100%; background: #fff; margin: 0 0 20px; box-shadow: 0 0 0 1px var(--rule), 0 1px 4px rgba(0, 0, 0, .08); }
+.cv-page:last-child { margin-bottom: 0; }
+
+/* Footer: the name and the way to the other language, quietly. */
+.site-footer { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; padding: 22px 0 0; margin: 48px 0 36px; border-top: 1px solid var(--rule); text-align: center; color: var(--ink-soft); }
+.site-info { margin: 0; }
+.site-info a { color: var(--ink-strong); }
+.site-info a:hover { color: var(--accent); }
+.site-info-sep { padding: 0 .6em; }
+
+/* Widths */
+@media (min-width: 576px) { .container { width: 558px; } }
+@media (min-width: 768px) {
+  .container { width: 750px; }
+  /* From tablet width up the whole menu is on the page, with no button, and on
+     the home page the portrait sits beside the text. */
+  .menu-toggle { display: none; }
+  .site-nav ul { display: flex; flex-wrap: wrap; justify-content: center; }
+  .entry-content > .image { float: right; width: 250px; margin: .3em 0 1em 2.5em; }
+  .entry-content > .image img { border-radius: 4px; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .site-logo img { height: 240px; }
+  /* The French menu is the longer one; at this size it holds on one line. */
+  .site-nav { letter-spacing: .02em; }
+  .site-nav a { padding: 13px 6px; font-size: 12.5px; }
+  .site-nav .flag a { padding-left: 40px; background-size: 32px; }
+  .site-nav .current > a::after { left: 6px; right: 6px; }
+}
+@media (min-width: 992px) {
+  .container { width: 970px; }
+  .col { float: left; width: 100%; }
+}
+@media (min-width: 1200px) { .container { width: 1040px; } }
+/* On a phone the photograph is shown whole and the menu folds behind a button. */
+@media (max-width: 767px) {
+  .site-branding { padding: 22px 0 18px; }
+  .site-logo img { height: auto; }
+  .site-photo-caption { font-size: 10px; right: 7px; bottom: 4px; }
+  .site-title { font-size: 1.9rem; margin-top: 22px; }
+  .site-description { font-size: .72rem; letter-spacing: .2em; }
+  .site-nav { margin-bottom: 20px; }
+  .site-nav.open ul { margin-bottom: 6px; }
+  .site-nav li { display: block; border-bottom: 1px solid var(--rule-menu); }
+  .site-nav li:last-child { border-bottom: 0; }
+  .site-nav a { padding: 13px 0; font-size: 15px; }
+  .site-nav .flag a { display: inline-block; }
+  .site-nav .current > a { font-weight: bold; }
+  .site-nav .current > a::after { display: none; }
+  .site-content { margin-top: 25px; }
+}

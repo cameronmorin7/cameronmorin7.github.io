@@ -1,0 +1,15 @@
+Typefaces
+  Lato. Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato".
+  Lora. Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
+  Both licensed under the SIL Open Font License, Version 1.1: https://scripts.sil.org/OFL
+
+Emoji graphics
+  Twemoji. Copyright Twitter, Inc and other contributors.
+  Licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Covers and logos on the publications pages
+  The covers of journals and books and the logos shown beside the publications belong to
+  their publishers, and are shown to identify where each publication appeared.
+  Title page of "Du linguiste à son objet : la distance en question(s)", Actes des 24èmes
+  Rencontres Jeunes Chercheurs en Sciences du Langage (hal-03917009), shown whole under
+  CC BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cameron-morin.com/sitemap.xml

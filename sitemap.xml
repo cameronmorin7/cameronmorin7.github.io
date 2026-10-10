@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cameron-morin.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/main-publications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/main-publications/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/publications-principales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/main-publications/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/media/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/media/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/medias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/media/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/supervision/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/supervision/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/encadrement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/supervision/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/cv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/cv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/cv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/cv/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/fr/publications-principales/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/main-publications/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/publications-principales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/main-publications/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/fr/medias/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/media/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/medias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/media/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/fr/encadrement/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/supervision/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/encadrement/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/supervision/"/>
+  </url>
+  <url>
+    <loc>https://cameron-morin.com/fr/cv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cameron-morin.com/cv/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cameron-morin.com/fr/cv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cameron-morin.com/cv/"/>
+  </url>
+</urlset>
